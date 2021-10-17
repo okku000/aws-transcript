@@ -1,7 +1,3 @@
-##　プロジェクトについて
-
-ABC 株式会社様依頼の　音声認識 API デモアプリケーションの基盤
-
 ### 詳細な機能
 
 #### 日本語音声データからテキスト・データへの変換
@@ -42,9 +38,6 @@ ABC 株式会社様依頼の　音声認識 API デモアプリケーション�
 - `yarn build`
 - `node dist/scripts/audioTranscriber.js <ファイル名.wav> <s3バケット1の名前> <s3バケット2の名前> <単語 1> <単語 2> .... `
 
-例:
-
-- `node dist/scripts/audioTranscriber.js public_audio_ja-JP_Broadband-sample.wav ibm-interview output-ibm-interview 音声認識 仕組み`
 
 ## その他リンク
 
@@ -57,17 +50,3 @@ ABC 株式会社様依頼の　音声認識 API デモアプリケーション�
 - [ ] 検索単語がヒットしなかった場合、その旨を知らせるログがでること
 - [ ] 異常な入力をした際、適切なエラーがでること
 
-## RoadMap
-
-もしあれば、Jira の残りチケット等貼る
-
-- [ ] 適切なエラーハンドリング　(API 用のエラー出力やサービス用のエラー出力)
-- [ ] 初回の s3 バケットの作成スクリプト
-- [ ] API のユニットテスト
-- [ ] git 化等バージョン管理
-- [ ] Linter 設定
-- [ ] CI/CD
-
-## 先方への共有方法
-
-ここにどのような方法で demo アプリを渡すか記入
